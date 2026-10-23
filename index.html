@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="FlorManía">
+    <title>FlorManía</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+
+    <!-- Encabezado Principal -->
+    <header class="header_principal">
+        <div class="logo">
+            <h1><span>Flor</span>Manía</h1>
+        </div>
+
+        <nav class="nav_superior">
+            <ul>
+                <li><a href="#" id="envia-flores">Envía Flores</a></li>
+                <li><a href="#">Nosotros</a></li>
+            </ul>
+            <button class="btn_login" id="btn-login">Iniciar Sesión</button>
+        </nav>
+    </header>
+
+    <!-- Barra de Categorías -->
+    <nav class="barra_categorias">
+        <ul>
+            <li><a href="#">Girasoles</a></li>
+            <li><a href="#">Rosas</a></li>
+            <li><a href="#">Claveles</a></li>
+            <li><a href="#">Orquídeas</a></li>
+            <li><a href="#">Margaritas</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main class="contenedor_principal">
+
+        <!-- Sección Flor del Mes -->
+        <section class="flor_del_mes">
+            <h2>Flor del Mes</h2>
+            <!-- Coloca aquí la ruta de tu imagen de banner -->
+            <img src="static/images/flor-del-mes.jpg" alt="Flor del Mes" class="img_banner">
+        </section>
+
+        <!-- Subencabezado Productos -->
+        <div class="subencabezado_productos">
+            <p class="resultados_count">Mostrando 50 resultados</p>
+            <a href="#" class="link_ver_mas">Ver más Flores</a>
+        </div>
+
+        <!-- Catálogo de Productos -->
+        <section class="galeria_productos">
+
+            <!-- Tarjeta 1 -->
+            <article class="tarjeta_producto">
+                <!-- Coloca aquí la ruta de la imagen del producto 1 -->
+                <img src="static/images/ramo-de-rosas.jpg" alt="Ramo de Rosas" class="img_producto">
+                <div class="detalles_producto">
+                    <div class="info">
+                        <p class="nombre_producto">Ramo de Rosas</p>
+                        <p class="precio">$40.00</p>
+                    </div>
+                    <button class="btn_comprar">Comprar</button>
+                </div>
+            </article>
+
+            <!-- Tarjeta 2 -->
+            <article class="tarjeta_producto">
+                <!-- Coloca aquí la ruta de la imagen del producto 2 -->
+                <img src="static/images/arreglo-tulipanes.jpg" alt="Arreglo Tulipanes" class="img_producto">
+                <div class="detalles_producto">
+                    <div class="info">
+                        <p class="nombre_producto">Arreglo Tulipanes</p>
+                        <p class="precio">$50.00</p>
+                    </div>
+                    <button class="btn_comprar">Comprar</button>
+                </div>
+            </article>
+
+            <!-- Tarjeta 3 -->
+            <article class="tarjeta_producto">
+                <!-- Coloca aquí la ruta de la imagen del producto 3 -->
+                <img src="static/images/bouquet-lirios.jpg" alt="Bouquet Lirios" class="img_producto">
+                <div class="detalles_producto">
+                    <div class="info">
+                        <p class="nombre_producto">Bouquet Lirios</p>
+                        <p class="precio">$25.00</p>
+                    </div>
+                    <button class="btn_comprar">Comprar</button>
+                </div>
+            </article>
+
+        </section>
+
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>FlorManía</p>
+    </footer>
+
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
