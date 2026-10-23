@@ -48,7 +48,6 @@ body {
     font-size: 18px;
 }
 
-/* Botón Iniciar Sesión */
 .btn_login {
     background-color: #ffffff;
     color: #000000;
@@ -61,10 +60,6 @@ body {
     border-radius: 4px;
 }
 
-.btn_login:active {
-    box-shadow: none;
-    transform: translate(2px, 2px);
-}
 
 /* Barra de Categorías */
 .barra_categorias {
@@ -190,10 +185,6 @@ body {
     box-shadow: 2px 2px 0px #000000;
 }
 
-.btn_comprar:active {
-    box-shadow: none;
-    transform: translate(2px, 2px);
-}
 
 /* Pie de página */
 footer {
